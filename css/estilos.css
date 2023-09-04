@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Serif+JP:wght@700;900&family=Roboto:ital@1&display=swap');
+*{
+    padding: 0px
+}
+
+body{
+    background:linear-gradient(#00eeb2,#3eee73);
+}
+  
+  
+
+.c1{
+    width: 105%;
+    height: 600px;
+    overflow: hidden;
+    
+}
+
+
+.barra {
+    /*-background-color:#393735;*/
+    background-color: #f0e0cd;
+}
+.nav-link{
+    color: #084702;
+}
+.barra p{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #084702;
+    font-family: 'Dancing Script', cursive;
+
+  
+}
+
+.subT{
+    font-family: 'Dancing Script', cursive;
+}
+main{
+  background:linear-gradient(#00eeb2,#3eee73);
+
+}
+img{
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+}
+
+
+.acerca{
+    height:300px;
+    margin:1px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.acerca h2{
+    font-size: 40px;
+}
+.acerca p{
+    font-size: 20px;
+}
+
+.h3_job{
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: -5%;
+    width: 100%;
+    display: block;
+    color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.603);
+}
+
+.card2{
+    height: 500px;
+    
+}
+
+.img_problematica{
+    height: 300px;
+}
+
+.formCont{
+    padding: 4px;
+    z-index: 99;
+    position: fixed;
+    left: 35%;
+    background:  #8269c5;;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #0c0c0c,
+                -3px -3px 13px  #6b7573;;
+    height: 77%;
+    width: 25%;
+    display: none;
+}
+
+.pMail,.pAsunt,.pMensaje{
+    font-size: auto;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.pMail{
+    margin-bottom: -23px;
+    margin-top: 10px;
+}
+
+.input1,.input2,.input3{
+    width: 98%;
+    left: 1%;
+    border-radius: 5px;
+    background: #7957da;
+    color:#ffffff;
+    border:none;
+    border:1px solid #ddd;
+   
+}
+::placeholder{
+    color:#90d171;
+}
+
+
+.input3{
+    resize: none;
+    
+}
+
+.inpSub{
+    width: 98%;
+    height: 50px;
+    color:#fff;
+    background: #c780e9;
+    border: none;
+}
+
+.inpSub:hover{
+    font-size: larger;
+}
+
+.cruz{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    color:#ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 87%;
+    margin-top: -15px;
+}
+.cruz:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.contenedor1{
+    filter: blur(0px);
+}
+
+.contenedor1_v2{
+    filter: blur(84px);
+}
+
+body::-webkit-scrollbar{
+    width: 13px;
+    height: 0px;
+    background-color:  #00eeb2;;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(to top, rgb(183, 0, 255), #f07025);
+    border-radius: 20px;    
+}
+.redes{
+    height: 100px;
+    
+
+}
+.linea{
+    padding-top: 30px;
+}
+    
+   
+/* redes */
+.face svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+    
+}
+
+.face svg:hover{
+    transform: scale(1.5);
+    color: #0061a9;
+}
+
+.ins svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+  
+}
+
+.ins svg:hover{
+    background: -webkit-linear-gradient(rgb(81,91,212),rgb(129,52,175),rgb(221,42,123),rgb(254,218,119),rgb(245,123,41));
+    transform: scale(1.5);
+    border-radius: 7px;
+} 
+.link svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+   
+}
+
+.link svg:hover{
+    transform: scale(1.5);
+    color: #0e76a8 ;
+}
+.you svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+    
+}
+
+.you svg:hover{
+    transform: scale(1.5);
+    color: hsl(2, 97%, 47%);
+}
+.twitter svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+   
+}
+
+.twitter svg:hover{
+    transform: scale(1.5);
+    color: #00acee;
+}
+/* css carousel materia */
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: -100px;
+    user-select: none;
+}
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: medium;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+
+.tipo { 
+    color: #df077e;
+    margin: 7px 0;
+    font-size: large;
+    font-weight: 300px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+
+
+.eleccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+
+}
+ 
+.caru2 .eleccion img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+
+
+}
+
+.cont2{
+    margin-top: 150px;
+    min-height: 300px;
+}
+
+ 
